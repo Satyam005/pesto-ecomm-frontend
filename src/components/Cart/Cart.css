@@ -1,0 +1,17 @@
+.summary {
+  width: 30%;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.rw {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+Col {
+  margin-left: 5px;
+}
