@@ -27,11 +27,17 @@ const Cart = () => {
 
   return (
     <div className="home">
-      <div className="productContainer">
+      <div className="cart">
         <ListGroup>
           {cart.map((item) => (
-            <ListGroup.Item key={item.id}>
-              <Row className="rw">
+            <ListGroup.Item
+              key={item.id}
+              style={{
+                background: `linear-gradient(#e55d87, #5fc3e4)`,
+                border: `none`,
+              }}
+            >
+              <Row className="row">
                 <Col md={2}>
                   <Image
                     src={item.product_image}
@@ -67,6 +73,7 @@ const Cart = () => {
                 </Col>
                 <Col md={2}>
                   <Button
+                    className="delIcon"
                     type="button"
                     variant="light"
                     onClick={() =>
@@ -86,8 +93,25 @@ const Cart = () => {
       </div>
       <div className="summary">
         <span className="title">Subtotal ({cart.length}) items</span>
-        <span style={{ fontWeight: 700, fontSize: 20 }}>Total: ₹ {total}</span>
-        <Button type="button" disabled={cart.length === 0}>
+        <span
+          style={{
+            fontWeight: 700,
+            fontSize: 20,
+          }}
+        >
+          Total : ₹ {total}
+        </span>
+        <Button
+          type="button"
+          disabled={cart.length === 0}
+          style={{
+            margin: 10,
+            background: `linear-gradient(#e55d87, #5fc3e4)`,
+            border: `none`,
+            color: `black`,
+            fontWeight: 700,
+          }}
+        >
           Proceed to Checkout
         </Button>
       </div>

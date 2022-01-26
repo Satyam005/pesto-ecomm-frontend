@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  background: #1e2833;
+  text-align: center;
+  height: 130px;
+  width: 100%;
+  color: #ffffff;
+  padding: 30px;
+}
+
+.cnt {
+  margin: 5px;
+  padding: 5px;
+}

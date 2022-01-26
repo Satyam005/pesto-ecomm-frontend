@@ -1,12 +1,32 @@
+.home {
+  display: flex;
+}
+
+.cart {
+  display: flex;
+  width: 78%;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .summary {
   width: 30%;
+  /* background-color: #343a40; */
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  height: 86vh;
+  text-align: center;
 }
 
 .title {
   font-size: 30px;
 }
 
-.rw {
+.row {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,4 +34,9 @@
 
 Col {
   margin-left: 5px;
+}
+
+.delIcon {
+  background: none !important;
+  border: none !important;
 }

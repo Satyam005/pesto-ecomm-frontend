@@ -9,7 +9,7 @@ const Home = () => {
   } = CartState();
 
   return (
-    <div className="productContainer">
+    <div className="container">
       {products.map((item) => {
         return <Product item={item} key={item.id} />;
       })}
