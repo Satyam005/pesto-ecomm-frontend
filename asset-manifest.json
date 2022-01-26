@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pesto-ecomm-frontend/static/css/main.e0be8216.css",
+    "main.js": "/pesto-ecomm-frontend/static/js/main.056f2883.js",
+    "index.html": "/pesto-ecomm-frontend/index.html",
+    "main.e0be8216.css.map": "/pesto-ecomm-frontend/static/css/main.e0be8216.css.map",
+    "main.056f2883.js.map": "/pesto-ecomm-frontend/static/js/main.056f2883.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0be8216.css",
+    "static/js/main.056f2883.js"
+  ]
+}
